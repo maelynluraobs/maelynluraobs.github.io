@@ -1,4 +1,8 @@
 
+
+$(function(){
+  $("#nav-placeholder").load("nav.html");
+});
 /* CONTACT */
 document.querySelector('#contact-form').addEventListener('submit', (e) => {
     e.preventDefault();
